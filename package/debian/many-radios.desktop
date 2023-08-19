@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=0.1.0
+Name=Many Radios
+Comment=Many Radios.
+Exec=/usr/bin/many-radios
+Icon=many-radios
+Terminal=false
+Type=Application
+Categories=Application;

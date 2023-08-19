@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/i18n">
+        <file alias="zh_CN">./i18n/app_zh_CN.qm</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file alias="top">./assets/images/top.svg</file>
+        <file alias="search">./assets/images/search.svg</file>
+        <file alias="collection">./assets/images/collection.svg</file>
+        <file alias="settings">./assets/images/settings.svg</file>
+
+        <file alias="radio">./assets/images/radio.png</file>
+
+        <file alias="back">./assets/images/back.svg</file>
+
+        <file alias="play">./assets/images/play.svg</file>
+        <file alias="pause">./assets/images/pause.svg</file>
+        <file alias="stop">./assets/images/stop.svg</file>
+
+        <file alias="favorite">./assets/images/favorite.svg</file>
+        <file alias="unfavorite">./assets/images/unfavorite.svg</file>
+    </qresource>
+</RCC>
