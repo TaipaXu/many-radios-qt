@@ -59,6 +59,10 @@ add_executable(
     ${SOURCES}
 )
 
+IF (WIN32)
+    set_property(TARGET ${TARGET} PROPERTY WIN32_EXECUTABLE true)
+ENDIF()
+
 target_link_libraries(${TARGET} PUBLIC
     Qt${QT_VERSION_MAJOR}::Core
     Qt${QT_VERSION_MAJOR}::Quick
