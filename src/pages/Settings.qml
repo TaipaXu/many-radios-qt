@@ -81,6 +81,37 @@ Flickable {
                     }
                 }
             }
+
+            Item {
+                height: 30
+            }
+
+            RowLayout {
+                Layout.fillWidth: true
+
+                Item {
+                    Layout.fillWidth: true
+                }
+
+                Label {
+                    text: qsTr("About")
+
+                    MouseArea {
+                        anchors.fill: parent
+                        cursorShape: Qt.PointingHandCursor
+
+                        onClicked: {
+                            var component = Qt.createComponent("About.qml")
+                            var window = component.createObject(root)
+                            window.show()
+                        }
+                    }
+                }
+
+                Item {
+                    Layout.fillWidth: true
+                }
+            }
         }
     }
 

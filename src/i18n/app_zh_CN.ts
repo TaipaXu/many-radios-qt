@@ -2,6 +2,24 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="zh_CN">
 <context>
+    <name>About</name>
+    <message>
+        <location filename="../pages/About.qml" line="9"/>
+        <source>About</source>
+        <translation>关于</translation>
+    </message>
+    <message>
+        <location filename="../pages/About.qml" line="19"/>
+        <source>Many Radios</source>
+        <translation>一些广播</translation>
+    </message>
+    <message>
+        <location filename="../pages/About.qml" line="38"/>
+        <source>Homepage(Github)</source>
+        <translation>主页（Github）</translation>
+    </message>
+</context>
+<context>
     <name>MainWindow</name>
     <message>
         <location filename="../widgets/MainWindow.qml" line="10"/>
@@ -89,6 +107,11 @@
         <location filename="../pages/Settings.qml" line="58"/>
         <source>Language</source>
         <translation>语言</translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="97"/>
+        <source>About</source>
+        <translation>关于</translation>
     </message>
 </context>
 <context>

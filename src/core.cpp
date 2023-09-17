@@ -2,12 +2,14 @@
 #include <QGuiApplication>
 #include <QTranslator>
 #include <QQmlApplicationEngine>
+#include <QQmlContext>
 #include "links/topRadios.hpp"
 #include "links/search.hpp"
 #include "links/favorites.hpp"
 #include "links/radio.hpp"
 #include "links/language.hpp"
 #include "links/theme.hpp"
+#include "appConfig.hpp"
 
 Core::Core()
 {
@@ -35,6 +37,8 @@ Core::Core()
     });
 
     engine = new QQmlApplicationEngine();
+    engine->rootContext()->setContextProperty("PROJECT_DOMAIN", PROJECT_DOMAIN);
+    engine->rootContext()->setContextProperty("PROJECT_VERSION", PROJECT_VERSION);
     engine->load("qrc:/widgets/MainWindow.qml");
     engine->retranslate();
 

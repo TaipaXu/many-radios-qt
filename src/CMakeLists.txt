@@ -88,4 +88,5 @@ qt_add_qml_module(${TARGET}
         "pages/Search.qml"
         "pages/MyFavorites.qml"
         "pages/Settings.qml"
+        "pages/About.qml"
 )
